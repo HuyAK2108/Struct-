@@ -18,7 +18,7 @@ int main(){
     
 
     printf("%d\t%d\t%d\n",OK,FAIL,NG_SYSTEM);
-    printf("Data: %d\nTime: %d",__DATE__,__TIME__);
+    printf("Data: %s\nTime: %s",__DATE__,__TIME__);
     if ((fp = fopen("D:/Microsoft VS Code/Projects/test/log.txt","r")) == NULL)
     {
         ret = 1;
